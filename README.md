@@ -10,11 +10,15 @@ For a brief overview of the math and specifications used, see https://en.wikiped
 ***$airfoil_fn***: number of sides for your airfoil. (default: 100) 
 
 ## airfoil_poly help:
+This function generates a 2D polygon of an airfoil, using the following variables.
+
 ***c***: Chord length, this is the chord length of your airfoil. (default: 100) 
 
 ***naca***: The NACA 4-digit specification for your airfoil. (default: 0015) 
 
 ## airfoil_simple_wing help: 
+This will generate a simple wing based on one or more supplied airfoils.
+
 ***airfoils***: Airfoils should be a set of [chord, naca]. Specify one for a uniform wing, two or more in a vector for compound wing. If specifying only one, do not put it in a set/vector. Multiple airfoils will be spaced evenly along the wing length. (required)
 
 ***wing_angle***: a set of angles, \[sweep,slope\] (optional, default=[0,0])
