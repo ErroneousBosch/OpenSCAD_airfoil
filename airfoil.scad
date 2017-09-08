@@ -85,7 +85,7 @@ module airfoil_help(){
     For a brief overview of the math and specifications used, see https://en.wikipedia.org/wiki/NACA_airfoil<br>\
     <u>Globals:</u><br> \
     <b><i>$close_airfoils</b></i>: Defines whether you want the back of your air foils closed, or if you want them open (default: false) <br>\
-    <b><i>$fn</b></i>: number of sides for your airfoil. (default: 100) <br>\
+    <b><i>$airfoil_fn</b></i>: number of sides for your airfoil. (default: 100) <br>\
     <u>airfoil_poly help:</u><br>\
     <b><i>c</b></i>: Chord length, this is the chord length of your airfoil. (default: 100) <br>\
     <b><i>naca</b></i>: The NACA 4-digit specification for your airfoil. (default: 0015) <br>\
@@ -94,3 +94,6 @@ module airfoil_help(){
     <b><i>wing_angle</b></i>: a set of angles, [sweep,slope] (optional, default=[0,0])<br>\
     <b><i>wing_length</b></i>: length of the wing (optional, default=1000)");
 }
+airfoil_help();
+//translate([0,0,100]) airfoil_poly();
+//airfoil_simple_wing(airfoils=[[100,0015],[200,2414],[100,0015],[200,2414],[100,0015]], wing_angle=[20,-20]);
