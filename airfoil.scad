@@ -82,7 +82,7 @@ module airfoil_simple_wing (airfoils=false, wing_angle=[0,0], wing_length=1000){
 }
 module airfoil_help(){
     echo("<u><b>Parametric Airfoil and Wing generator v0.1</u></b> <br>\
-    For a breif overview of the math and specifications used, see https://en.wikipedia.org/wiki/NACA_airfoil<br>\
+    For a brief overview of the math and specifications used, see https://en.wikipedia.org/wiki/NACA_airfoil<br>\
     <u>Globals:</u><br> \
     <b><i>$close_airfoils</b></i>: Defines whether you want the back of your air foils closed, or if you want them open (default: false) <br>\
     <b><i>$fn</b></i>: number of sides for your airfoil. (default: 100) <br>\
@@ -94,6 +94,3 @@ module airfoil_help(){
     <b><i>wing_angle</b></i>: a set of angles, [sweep,slope] (optional, default=[0,0])<br>\
     <b><i>wing_length</b></i>: length of the wing (optional, default=1000)");
 }
-airfoil_help();
-//translate([0,0,100]) airfoil_poly();
-//airfoil_simple_wing(airfoils=[[100,0015],[200,2414],[100,0015],[200,2414],[100,0015]], wing_angle=[20,-20]);
