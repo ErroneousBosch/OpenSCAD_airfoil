@@ -19,10 +19,12 @@ This function generates a 2D polygon of an airfoil, using the following variable
 ## airfoil_simple_wing help: 
 This will generate a simple wing based on one or more supplied airfoils. Each set of airfoils is an individual shape, allowing for very complex variation along the wing.
 
-***airfoils*** (required): Two modes:
-Single Airfoil: Specifying a single airfoil will generate a uniform wing based on that airfoil. Upi can specify the airfoil as a set (vector) of [chord, naca].
+***airfoils*** (required): 
+Two modes:
 
-Multiple airfoils: Specify a set (vector) of airfoils. Individual airfoils are specified the same as a single airfoil (see above). These airfoils will be spaced evenly along the wing length.
+*Single Airfoil*: Specifying a single airfoil will generate a uniform wing based on that airfoil. Upi can specify the airfoil as a set (vector) of [chord, naca].
+
+*Multiple airfoils*: Specify a set (vector) of airfoils. Individual airfoils are specified the same as a single airfoil (see above). These airfoils will be spaced evenly along the wing length.
 
 ***wing_angle***: a set of angles, \[sweep,slope\]. Sweep is along the x axis, slope along the y axis. (optional, default=[0,0])
 
