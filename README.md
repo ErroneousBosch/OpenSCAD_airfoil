@@ -22,7 +22,7 @@ This will generate a simple wing based on one or more supplied airfoils. Each se
 ***airfoils*** (required): 
 Two modes:
 
-*Single Airfoil*: Specifying a single airfoil will generate a uniform wing based on that airfoil. Upi can specify the airfoil as a set (vector) of [chord, naca].
+*Single Airfoil*: Specifying a single airfoil will generate a uniform wing based on that airfoil. You can specify the airfoil as a set (vector) of [chord, naca].
 
 *Multiple airfoils*: Specify a set (vector) of airfoils. Individual airfoils are specified the same as a single airfoil (see above). These airfoils will be spaced evenly along the wing length.
 
