@@ -16,6 +16,8 @@ This function generates a 2D polygon of an airfoil, using the following variable
 
 ***naca***: The NACA 4-digit specification for your airfoil. (default: 0015) 
 
+***raw***: overrides the NACA code with direct ratios. Provide in the same order as the NACA digits. (e.g NACA 4123 becomes raw [.4,.1,.23])<br>
+
 ## airfoil_simple_wing help: 
 This will generate a simple wing based on one or more supplied airfoils. Each set of airfoils is an individual shape, allowing for very complex variation along the wing.
 
