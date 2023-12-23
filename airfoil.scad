@@ -94,6 +94,7 @@ module airfoil_help(){
     <u>airfoil_poly help:</u><br>\
     <b><i>c</b></i>: Chord length, this is the chord length of your airfoil. (default: 100) <br>\
     <b><i>naca</b></i>: The NACA 4-digit specification for your airfoil. (default: 0015) <br>\
+    <b><i>raw</b></i>: overrides the NACA code with direct ratios. Provide in the same order as the NACA digits. (e.g NACA 4123 becomes raw [.4,.1,.23])<br>
     <u>airfoil_simple_wing help:</u> <br>\
     <b><i>airfoils</b></i>: Airfoils should be a set of [chord, naca]. Specify one for a uniform wing, two or more in a vector for compound wing. If specifying only one, do not put it in a set/vector. Multiple airfoils will be spaced evenly along the wing length. (required)<br>\
     <b><i>wing_angle</b></i>: a set of angles, [sweep,slope] (optional, default=[0,0])<br>\
